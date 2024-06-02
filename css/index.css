@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("/images/gradient_bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Roboto";
+    font-size: 34pt;
+    font-weight: bolder;
+    color: #162430;
+}
+
+.card-title {
+    font-family: "Roboto" !important;
+    font-size: 22pt !important;
+    font-weight: normal !important;
+    color: white !important;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 20pt;
+    font-weight: normal;
+    color: #162430;
+}
+
+p {
+    font-family: Arial;
+    font-size: 17pt;
+    color: #162430;
+}
+
+li {
+    list-style-type: none;
+}
+
+.customNav {
+    width: 100%;
+    background: #223749 !important;
+}
+
+.navbar-brand {
+    margin-left: 50px !important;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 50px !important;
+    justify-content: end !important;
+}
+
+.customNav a {
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#Intro {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.intro_heading {
+    padding-top: 15%;
+}
+
+.image {
+    background-image: url('../images/PhoneMock.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 632px;
+}
+
+#features {
+    margin-top: 100px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex_item {
+    display: flex;
+    margin: 2%;
+}
+
+.card {
+    background-color: #223749 !important;
+    padding-top: 20px !important;
+}
+
+#TryIt {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+
+.tryItText {
+    padding-top: 300px;
+}
+
+.flex-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.transparent {
+    background-color: rgb(255, 255, 255, .5);
+    margin-bottom: 100px;
+}
+
+.heading {
+    margin-top: 100px;
+    padding-top: 44px;
+    text-align: center;
+}
+
+.person {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-inline: 5%;
+}
+
+.person>img {
+    margin-bottom: 16px;
+}
+
+.footer {
+    background-color: #223749;
+}
+
+.footer_format {
+    padding: 30px 100px 30px 100px;
+    justify-content: center;
+}
+
+.justify {
+    padding-top: 20px;
+    color: white;
+}
+
+.justify>p {
+    color: white;
+}
+
+.footer_right {
+    text-align: right;
+}
+
+.footer_link {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
