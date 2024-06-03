@@ -13,138 +13,140 @@
 </head>
 
 <body>
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light customNav">
-        <div class="container-fluid">
-            <a class="navbar-brand" href=""><img src="images/AuraWhite.png" width="90px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#features">Features</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#TryIt">Try It</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#ourTeam">Our Team</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <div class="container-fluid">
-        <!-- Intro Image and Text -->
-        <div class="row Intro" Id="Intro">
-            <div class="col-md-5 intro_heading">
-                <h1>Individual pressure warnings to empower your life.</h1>
-                <h3>AURA bases pressure shifts and alerts on your headache history, allowing you to take
-                    preventative measures, stopping headaches before they start for a more pain-free life.</h3>
-            </div>
-            <div class="col-md-7 image">
-                <div class="getNow">
-                </div>
-            </div>
-        </div>
-        <!-- Features Cards -->
-        <div class="row" Id="features">
-            <div class="card flex_item" style="width: 20rem;">
-                <img class="card-img-top" src="images/Request-NotificationsRect.gif" alt="Notification GIF">
-                <div class="card-body">
-                    <h2 class="card-title">Personalized Pressure Alerts</h2>
-                </div>
-            </div>
-
-            <div class="card flex_item" style="width: 20rem;">
-                <img class="card-img-top" src="images/Barometer.gif" alt="Barometer GIF">
-                <div class="card-body">
-                    <h2 class="card-title">Daily Atmospheric Pressure Graphs</h2>
-                </div>
-            </div>
-
-            <div class="card flex_item" style="width: 20rem;">
-                <img class="card-img-top" src="images/Headache.gif" alt="Headache GIF">
-                <div class="card-body">
-                    <h2 class="card-title">Headache History and Analysis</h2>
-                </div>
-            </div>
-        </div>
-        <!-- Try it Now + Embed -->
-        <div class="row" Id="TryIt">
-            <div class="col-md-5 tryItText">
-                <h1>Try it now!</h1>
-                <li>
-                    <p><strong>Try to</strong> add a migraine attack.</p>
-                </li>
-                <li>
-                    <p><strong>Try to</strong> check out your reports.</p>
-                </li>
-                <li>
-                    <p><strong>Try to</strong> filter previous migraine attacks.</p>
-                </li>
-            </div>
-
-            <div class="col-md-7">
-                <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="725" height="800"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwyVWH1fXscFxyc1TMM5Jiz%2FPressure-Sense-Hi-Fi%3Fpage-id%3D0%253A1%26node-id%3D29-14%26viewport%3D490%252C286%252C0.11%26t%3DJ9swXg6xAw4AaRuG-1%26scaling%3Dcontain%26starting-point-node-id%3D5%253A8"
-                    allowfullscreen></iframe>
-            </div>
-        </div>
-    </div>
-
-    <!-- Our Team-->
-    <div class="transparent" ID="ourTeam">
-        <div class="heading">
-            <h1>Our Team</h1>
-        </div>
-        <div class="flex-container">
-            <div class="person">
-                <img src="images/AliImage.png">
-                <p> Ali Moore </p>
-            </div>
-            <div class="person">
-                <img src="images/LaurenImage.png">
-                <p> Lauren Sachse </p>
-            </div>
-            <div class="person">
-                <img src="images/AmeliaImage.png">
-                <p> Amelia Sims </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="footer">
-        <div class="row footer_format">
-            <div class="col-md-5">
-                <div class="justify">
-                    <h3>Prototype Created</h3>
-                    <p>2024</p>
-                </div>
-            </div>
-            <div class="col-md-7">
-                <div class="footer_right">
-                    <ul>
-                        <li>
-                            <a class="footer_link" href="#features">Features</a>
+    <div id="loader" class="loader"><img src="images/Lightning Strike.gif"></div>
+    <div id="content" class="hidden">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light customNav">
+            <div class="container-fluid">
+                <a class="navbar-brand" href=""><img src="images/AuraWhite.png" width="90px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
                         </li>
-                        <li>
-                            <a class="footer_link" href="#TryIt">Try It</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#TryIt">Try It</a>
                         </li>
-                        <li>
-                            <a class="footer_link" href="#ourTeam">Our Team</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#ourTeam">Our Team</a>
                         </li>
                     </ul>
                 </div>
             </div>
+        </nav>
+
+        <div class="container-fluid">
+            <!-- Intro Image and Text -->
+            <div class="row Intro" Id="Intro">
+                <div class="col-md-5 intro_heading">
+                    <h1>Individual pressure warnings to empower your life.</h1>
+                    <h3>AURA bases pressure shifts and alerts on your headache history, allowing you to take
+                        preventative measures, stopping headaches before they start for a more pain-free life.</h3>
+                </div>
+                <div class="col-md-7 image">
+                    <div class="getNow">
+                    </div>
+                </div>
+            </div>
+            <!-- Features Cards -->
+            <div class="row" Id="features">
+                <div class="card flex_item" style="width: 20rem;">
+                    <img class="card-img-top" src="images/Request-NotificationsRect.gif" alt="Notification GIF">
+                    <div class="card-body">
+                        <h2 class="card-title">Personalized Pressure Alerts</h2>
+                    </div>
+                </div>
+
+                <div class="card flex_item" style="width: 20rem;">
+                    <img class="card-img-top" src="images/Barometer.gif" alt="Barometer GIF">
+                    <div class="card-body">
+                        <h2 class="card-title">Daily Atmospheric Pressure Graphs</h2>
+                    </div>
+                </div>
+
+                <div class="card flex_item" style="width: 20rem;">
+                    <img class="card-img-top" src="images/Headache.gif" alt="Headache GIF">
+                    <div class="card-body">
+                        <h2 class="card-title">Headache History and Analysis</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Try it Now + Embed -->
+            <div class="row" Id="TryIt">
+                <div class="col-md-5 tryItText">
+                    <h1>Try it now!</h1>
+                    <li>
+                        <p><strong>Try to</strong> add a migraine attack.</p>
+                    </li>
+                    <li>
+                        <p><strong>Try to</strong> check out your reports.</p>
+                    </li>
+                    <li>
+                        <p><strong>Try to</strong> filter previous migraine attacks.</p>
+                    </li>
+                </div>
+
+                <div class="col-md-7">
+                    <iframe style="border: 0px solid rgba(0, 0, 0, 0.1);" width="725" height="800"
+                        src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FwyVWH1fXscFxyc1TMM5Jiz%2FPressure-Sense-Hi-Fi%3Fpage-id%3D0%253A1%26node-id%3D29-14%26viewport%3D490%252C286%252C0.11%26t%3DJ9swXg6xAw4AaRuG-1%26scaling%3Dcontain%26starting-point-node-id%3D5%253A8"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Our Team-->
+        <div class="transparent" ID="ourTeam">
+            <div class="heading">
+                <h1>Our Team</h1>
+            </div>
+            <div class="flex-container">
+                <div class="person">
+                    <img src="images/AliImage.png">
+                    <p> Ali Moore </p>
+                </div>
+                <div class="person">
+                    <img src="images/LaurenImage.png">
+                    <p> Lauren Sachse </p>
+                </div>
+                <div class="person">
+                    <img src="images/AmeliaImage.png">
+                    <p> Amelia Sims </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="row footer_format">
+                <div class="col-md-5">
+                    <div class="justify">
+                        <h3>Prototype Created</h3>
+                        <p>2024</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="footer_right">
+                        <ul>
+                            <li>
+                                <a class="footer_link" href="#features">Features</a>
+                            </li>
+                            <li>
+                                <a class="footer_link" href="#TryIt">Try It</a>
+                            </li>
+                            <li>
+                                <a class="footer_link" href="#ourTeam">Our Team</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-
-
+    <script src="js/index.js"></script>
 </body>
 
 
